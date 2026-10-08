@@ -1,4 +1,4 @@
-export const snacks = ["chips", "cookies", "granola", "popcorn", "fruit snacks", "trail mix"];
+export const snacks = ["chips", "cookies"];
 
 export function printSnacks() {
     console.log(snacks);
