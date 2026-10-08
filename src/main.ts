@@ -1,8 +1,14 @@
-import { print_names } from './juice';
 
+import { printSnacks } from "./snacks";
+import { print_names } from "./juice";
+import { animate } from "./animation";
+
+const name: string = "Snacks Time";
 
 function main() {
-  print_names();
+    animate(name);
+    printSnacks();
+    print_names();
 }
 
 main();
